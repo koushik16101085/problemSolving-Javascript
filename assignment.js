@@ -1,7 +1,10 @@
+//https://github.com/koushik16101085/problemSolving-Javascript
+
+
 //1.kilometerToMeter
 
 function kilometerToMeter(kilometerValue) {
-    var negativeValue = "this message is error";
+    var negativeValue = "This Message Is Error";
      if (kilometerValue < 0) {
         return negativeValue;
           }
@@ -18,7 +21,7 @@ function kilometerToMeter(kilometerValue) {
 
  //2.budgetCalculator
 function budgetCalculator(watch,phone,laptop) {
-    var nagativeValue = "this message is error";
+    var nagativeValue = "This Message Is Error";
     if (watch,phone,laptop<0) {
         return nagativeValue;                              //input nagative output "this message is error";
         
@@ -36,7 +39,7 @@ console.log(result);
 
 //3.hotelCost
 function hotelCost(roomStayDays) {
-    var nagativeValue = "this message is error";
+    var nagativeValue = "This Message Is Error";
     if (roomStayDays < 0) {
         return nagativeValue;                            //input nagatvie: output "this message is error";
         
@@ -73,7 +76,7 @@ console.log(daysCount);
 
 //4.megaFriend
 function megaFriend(friendsName) {
-    var emptyStringArray = "this is error";
+    var emptyStringArray = "This Message Is Error";
     if (friendsName.length == 0) {               
         return emptyStringArray;                                         //input empty string and output "this message is error";
 

@@ -1,6 +1,3 @@
-//https://github.com/koushik16101085/problemSolving-Javascript
-
-
 //1.kilometerToMeter
 
 function kilometerToMeter(kilometerValue) {

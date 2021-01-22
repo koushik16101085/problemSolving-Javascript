@@ -1,5 +1,5 @@
 
-//kilometerToMeter
+//1.kilometerToMeter
 
 function kilometerToMeter(kilometerValue) {
     var negativeValue = "this message is error";
@@ -17,7 +17,7 @@ function kilometerToMeter(kilometerValue) {
  var result = kilometerToMeter(5); //any kilometer positive or nagative;
  console.log(result);
 
- //budgetCalculator
+ //2.budgetCalculator
 function budgetCalculator(watch,phone,laptop) {
     var nagativeValue = "this message is error";
     if (watch,phone,laptop<0) {
@@ -35,7 +35,7 @@ var result = budgetCalculator(2,2,2);
 console.log(result);
 
 
-//hotelCost
+//3.hotelCost
 function hotelCost(roomStayDays) {
     var nagativeValue = "this message is error";
     if (roomStayDays < 0) {
@@ -72,7 +72,7 @@ console.log(daysCount);
 
 
 
-//megaFriend
+//4.megaFriend
 function megaFriend(friendsName) {
     var emptyStringArray = "this is error";
     if (friendsName.length == 0) {               

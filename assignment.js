@@ -1,3 +1,4 @@
+//https://github.com/koushik16101085/problemSolving-Javascript
 
 //1.kilometerToMeter
 
@@ -8,13 +9,13 @@ function kilometerToMeter(kilometerValue) {
           }
      else{
          var meter =0;
-         meter = kilometerValue * 1000;  //1 kilometer = 1000meter;
+         meter = kilometerValue * 1000;           //1 kilometer = 1000meter;
          
      }
      return meter;
      
  }
- var result = kilometerToMeter(5); //any kilometer positive or nagative;
+ var result = kilometerToMeter(5);                       //any kilometer positive or nagative;
  console.log(result);
 
  //2.budgetCalculator
@@ -92,5 +93,5 @@ function megaFriend(friendsName) {
         return maxFriendName;
     }
 }
-var result = megaFriend([ 'koushik', 'nehon', 'shuvo', 'rony', 'nayeem', 'tanvir','Bangladesh']);
+var result = megaFriend([ 'Koushik', 'Nehon', 'Shuvo', 'Rony', 'Nayeem', 'Tanvir','Bangladesh']);
 console.log(result);
